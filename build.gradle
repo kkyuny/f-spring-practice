@@ -15,10 +15,12 @@ dependencies {
     compileOnly 'javax.servlet:javax.servlet-api:4.0.1'
 
     implementation 'org.springframework:spring-webmvc:5.3.8'
-
     testImplementation 'org.springframework:spring-test:5.3.8'
+    //스프링프레임워크 디펜던시도 추가해야 한다.
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    // gradle은 기본적으로 테스트를 위한 junit가 디펜선시 되어있다.
 }
 
 test {
